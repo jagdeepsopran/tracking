@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Logistics Tracking</title>
+    <link rel="stylesheet" href="tracking.css">
+</head>
+<body>
+    <div class="tracking-container">
+        <h1>Package Tracking</h1>
+        <input type="text" id="trackingInput" placeholder="Enter Tracking ID">
+        <button id="trackingBtn" onclick="trackPackage()">Track Package</button>
+        
+        <div id="trackingResult"></div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.1/axios.min.js"></script>
+    <script src="tracking.js"></script>
+</body>
+</html>
